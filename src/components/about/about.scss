@@ -1,0 +1,29 @@
+@import '../../variables.scss';
+
+.about {
+  background: #2B2B2B;
+  padding-top: 90px;
+  padding-bottom: 66px;
+  overflow: hidden;
+  width: 100%;
+  text-align: justify;
+
+  .profile-img-container{
+      text-align: center;
+
+      img {
+          width: 50%;
+      }
+  }
+
+  h2 {
+      font: 22px/30px 'opensans-bold', sans-serif;
+      color: #fff;
+      margin-bottom: 12px;
+  }
+
+  p {
+      line-height: 30px;
+      color: #7A7A7A;
+  }
+}

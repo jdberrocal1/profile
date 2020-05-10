@@ -1,0 +1,16 @@
+@import '../variables.scss';
+
+.App {
+  text-align: center;
+}
+
+.padding-top-40 {
+  padding-top: 40px;
+}
+
+.border-color-bottom {
+  border: 2px solid #ddd;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}

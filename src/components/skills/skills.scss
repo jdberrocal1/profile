@@ -1,0 +1,32 @@
+@import '../../variables.scss';
+
+.skills {
+    background: #E8EBEB;
+    padding-bottom: 66px;
+    overflow: hidden;
+    width: 100%;
+    text-align: justify;
+    padding-top: 70px;
+
+    .title-left {
+        text-align: right;
+        text-transform: uppercase;
+        font: 18px/24px 'opensans-bold', sans-serif;
+        margin-right: 20px;
+
+        span {
+            border: 3px solid #F06000;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            padding-bottom: 5px;
+            letter-spacing: 1px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .title-left {
+            text-align: center;
+        }
+    }
+}
