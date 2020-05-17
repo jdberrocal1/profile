@@ -7,7 +7,7 @@ import Grid from '@material-ui/core/Grid';
 function About() {
   return (
     <div className="about">
-      <Grid container spacing={40} justify="center">
+      <Grid container spacing={5} justify="center">
         <Grid item xs={12} sm={3}>
             <div className="profile-img-container">
               <img src={profile} alt="Profile Picture" />
@@ -25,11 +25,11 @@ function About() {
             <br/>
             San Jose, Costa Rica
             <br/>
-            (506) 86899169
+            (506) 8689-9169
             <br/>
             jdanielb1992@gmail.com
             <br/>
-            Skype: jdberrocal11
+            Skype: <a href="https://join.skype.com/invite/Cy7vzGYkBumR" target="_blank" className="link">jdberrocal11</a>
           </p>
           <p id="aboutEnd"></p>
         </Grid>

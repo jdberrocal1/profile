@@ -1,29 +1,41 @@
 @import '../../variables.scss';
 
 .about {
-  background: #2B2B2B;
-  padding-top: 90px;
-  padding-bottom: 66px;
-  overflow: hidden;
-  width: 100%;
-  text-align: justify;
+	background: #2B2B2B;
+	padding-top: 90px;
+	padding-bottom: 66px;
+	overflow: hidden;
+	width: 100%;
+	text-align: justify;
 
-  .profile-img-container{
-      text-align: center;
+	.profile-img-container {
+		text-align: center;
 
-      img {
-          width: 50%;
-      }
-  }
+		img {
+			width: 50%;
+		}
+	}
 
-  h2 {
-      font: 22px/30px 'opensans-bold', sans-serif;
-      color: #fff;
-      margin-bottom: 12px;
-  }
+	h2 {
+		font: 22px/30px 'opensans-bold', sans-serif;
+		color: #fff;
+		margin-bottom: 12px;
 
-  p {
-      line-height: 30px;
-      color: #7A7A7A;
-  }
+		@media #{$bootstrap-xs, $bootstrap-sm} {
+			text-align: center;
+		}
+	}
+
+	p {
+		line-height: 30px;
+		color: #7A7A7A;
+	}
+
+	.link {
+		color: #7A7A7A;
+
+		&:hover {
+			font-weight: bold;
+		}
+	}
 }

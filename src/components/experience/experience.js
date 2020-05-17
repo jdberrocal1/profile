@@ -6,7 +6,7 @@ import Grid from '@material-ui/core/Grid';
 function Experience() {
   return (
     <div className="experience" >
-      <Grid container spacing={40} justify="center" className="padding-top-40">
+      <Grid container spacing={5} justify="center" className="padding-top-40">
         <Grid item xs={12} sm={3}>
             <h2 className="title-left"><span>Education</span></h2>
         </Grid>
@@ -16,7 +16,7 @@ function Experience() {
             <p className="subtitle">Computer Engineering Degree <span>•</span> <em className="date">2015</em></p>
         </Grid>
       </Grid>
-      <Grid container spacing={40} justify="center" className="padding-top-40">
+      <Grid container spacing={5} justify="center" className="padding-top-40">
         <Grid item xs={12} sm={3}>
             <h2 className="title-left"><span>Languages</span></h2>
         </Grid>
@@ -28,7 +28,7 @@ function Experience() {
             <p className="subtitle">Professional working proficiency</p>
         </Grid>
       </Grid>
-      <Grid container spacing={40} justify="center" className="padding-top-40">
+      <Grid container spacing={5} justify="center" className="padding-top-40">
         <Grid item xs={12} sm={3}>
             <h2 className="title-left"><span>Work</span></h2>
         </Grid>

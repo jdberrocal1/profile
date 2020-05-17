@@ -1,32 +1,84 @@
 @import '../../variables.scss';
 
 .skills {
-    background: #E8EBEB;
-    padding-bottom: 66px;
-    overflow: hidden;
-    width: 100%;
-    text-align: justify;
-    padding-top: 70px;
+	background: #E8EBEB;
+	padding-bottom: 66px;
+	overflow: hidden;
+	width: 100%;
+	text-align: justify;
+	padding-top: 70px;
 
-    .title-left {
-        text-align: right;
-        text-transform: uppercase;
-        font: 18px/24px 'opensans-bold', sans-serif;
-        margin-right: 20px;
+	.title-left {
+		text-align: right;
+		text-transform: uppercase;
+		font: 18px/24px 'opensans-bold', sans-serif;
+		margin-right: 20px;
 
-        span {
-            border: 3px solid #F06000;
-            border-top: 0;
-            border-left: 0;
-            border-right: 0;
-            padding-bottom: 5px;
-            letter-spacing: 1px;
-        }
+		span {
+			border: 3px solid #F06000;
+			border-top: 0;
+			border-left: 0;
+			border-right: 0;
+			padding-bottom: 5px;
+			letter-spacing: 1px;
+		}
+
+		@media #{$bootstrap-xs, $bootstrap-sm} {
+			text-align: center;
+		}
+	}
+
+	.skill-list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.skill_logo {
+		width: 100px;
+		height: 100px;
+		background-size: 84px 74px;
+		background-repeat: no-repeat;
+
+		@media #{$bootstrap-xs, $bootstrap-sm} {
+      margin: auto;
     }
 
-    @media (max-width: 480px) {
-        .title-left {
-            text-align: center;
-        }
-    }
+		&--csharp {
+			background-image: url('../../img/csharp_logo.svg');
+		}
+		&--css {
+			background-image: url('../../img/css_logo.svg');
+		}
+		&--ember {
+			background-image: url('../../img/ember_logo.svg');
+		}
+		&--git {
+			background-image: url('../../img/git_logo.svg');
+		}
+		&--html {
+			background-image: url('../../img/html_logo.svg');
+		}
+		&--js {
+			background-image: url('../../img/js_logo.svg');
+		}
+		&--node {
+			background-image: url('../../img/node_logo.svg');
+		}
+		&--python {
+			background-image: url('../../img/python_logo.svg');
+		}
+		&--rails {
+			background-image: url('../../img/rails_logo.svg');
+		}
+		&--react {
+			background-image: url('../../img/react_logo.svg');
+		}
+		&--sass {
+			background-image: url('../../img/sass_logo.svg');
+		}
+		&--vue {
+			background-image: url('../../img/vue_logo.svg');
+		}
+	}
+
 }
