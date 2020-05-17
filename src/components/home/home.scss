@@ -8,7 +8,7 @@
 
   .content {
     position: relative;
-    top: 30%;
+    top: 33%;
 
     @media #{$bootstrap-xs, $bootstrap-sm} {
       top: 15%;
@@ -16,7 +16,7 @@
   }
 
   h1 {
-    font: 90px/1.1em 'opensans-bold', sans-serif;
+    font: 100px/1.1em 'opensans-bold', sans-serif;
     color: $white;
     letter-spacing: -2px;
     margin: 0 auto 18px auto;
@@ -25,7 +25,7 @@
   }
 
   p {
-    font: 21px/2em 'librebaskerville-regular', serif;
+    font: 25px/2em 'librebaskerville-regular', serif;
     color: $white;
     margin: 0 auto;
     width: 70%;

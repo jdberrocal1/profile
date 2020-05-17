@@ -40,6 +40,8 @@ function Experience() {
             <h2 className="title-right">Avantica Tehcnologies</h2>
             <p className="subtitle">Software Engineer<span>•</span> <em className="date">February 2015 - April 2018</em></p>
             <p>Avantica is software development company, with more than 20 years operating and 7 diferent locations, incluiding Silicon Valey and New York in United States, San Carlos, San Jose, Liberia and Cartago in Costa Rica, Peru and Bolivia.</p>
+
+            <a href="https://docs.google.com/document/d/1vOf5XYyNPcp0HGM4_dW_qJx7IeoGMtJtHZplFDAAbiQ/edit?usp=sharing" target="_blanck" className="link">Resume</a>
         </Grid>
       </Grid>
     </div>
