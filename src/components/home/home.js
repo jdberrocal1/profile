@@ -17,22 +17,22 @@ function Home() {
         <p>I'm a Costa Rica based <span>FullStack Developer.</span> Let's start scrolling and learn more <span>about me.</span></p>
         <hr/>
         <Grid container spacing={0} justify="center">
-          <Grid item xs={2} sm={1}>
+          <Grid item xs={3} sm={1}>
               <a href="https://www.facebook.com/jdberrocal1" target="_blank"><FacebookIcon fontSize="large"/></a>
           </Grid>
-          <Grid item xs={2} sm={1}>
+          <Grid item xs={3} sm={1}>
               <a href="https://www.github.com/jdberrocal1" target="_blank"><GitHubIcon fontSize="large"/></a>
           </Grid>
-          <Grid item xs={2} sm={1}>
+          <Grid item xs={3} sm={1}>
               <a href="https://www.instagram.com/jdberrocal1" target="_blank"><InstagramIcon fontSize="large"/></a>
           </Grid>
-          <Grid item xs={2} sm={1}>
+          <Grid item xs={3} sm={1}>
           <a href="https://www.linkedin.com/in/jdberrocal1/" target="_blank"><LinkedInIcon fontSize="large"/></a>
           </Grid>
-          <Grid item xs={2} sm={1}>
+          <Grid item xs={3} sm={1}>
               <a href="https://www.twitter.com/jdberrocal1" target="_blank"><TwitterIcon fontSize="large"/></a>
           </Grid>
-          <Grid item xs={2} sm={1}>
+          <Grid item xs={3} sm={1}>
               <a href="https://wa.me/50686899169?text=Hey%20Daniel%20" target="_blank"><WhatsAppIcon fontSize="large"/></a>
           </Grid>
         </Grid>

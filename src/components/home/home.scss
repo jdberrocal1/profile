@@ -4,13 +4,14 @@
   width: 100%;
   z-index: 2;
   background-image: url('../../img/bg_background.png');
+  background-position: center;
   height: 100vh;
 
   .content {
     position: relative;
     top: 33%;
 
-    @media #{$bootstrap-xs, $bootstrap-sm} {
+    @media #{$bootstrap-xs} {
       top: 15%;
     }
   }
@@ -22,6 +23,10 @@
     margin: 0 auto 18px auto;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
     margin-bottom: 0;
+
+    @media #{$bootstrap-xs, $bootstrap-sm} {
+      font: 70px/1.1em 'opensans-bold', sans-serif;
+    }
   }
 
   p {
@@ -35,12 +40,21 @@
        font-weight: bold;
        font-size: 23px;
     }
+
+    @media #{$bootstrap-xs, $bootstrap-sm} {
+      font: 20px/2em 'librebaskerville-regular', serif;
+    }
   }
+
   hr {
     width: 70%;
     margin: 18px auto 24px auto;
     border-color: rgba(150, 150, 150, .5);
     margin-top: 5px;
+
+    @media #{$bootstrap-xs, $bootstrap-sm} {
+      width: 90%;
+    }
   }
 
   a {
